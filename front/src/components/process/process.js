@@ -9,9 +9,7 @@ export default function Process() {
             <Image
                 src={baner}
                 alt="baner"
-                layout="responsive"
                 width={800}
-
             />
 
         </div>

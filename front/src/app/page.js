@@ -3,6 +3,7 @@ import NavBar from '@/components/navbar/navbar'
 import WhatWeDo from '@/components/whatWeDo/whatWeDo'
 import styles from './homestyles.module.scss'
 import Baner from '@/components/baner/baner'
+import Process from '@/components/process/process'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Baner />
       <WhatWeDo />
       <Keys />
+      <Process />
     </div>
 
   )
