@@ -40,8 +40,13 @@
 .subsection {
 }
 
+.imageWrapper {
+  padding-top: 5%;
+}
+
 .rightSide {
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }

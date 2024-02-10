@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react'
 import styles from './process.module.scss'
 import ProcessesContent from './processesContent/processesContent';
+import ProcessesContentRight from './processesContent/processesContentRight';
 
 export default function Process() {
     return (
@@ -16,15 +17,7 @@ export default function Process() {
                 <div className={styles.subsection}>
                     <ProcessesContent />
                 </div>
-
-
-
             </div>
-
-
-
-
-
             <div className={styles.rightSide}>
                 <div className={styles.imageWrapper}>
                     <Image
@@ -33,9 +26,9 @@ export default function Process() {
                         width={600}
                     />
                 </div>
-
-
-
+                <div className={styles.subsection}>
+                    <ProcessesContentRight />
+                </div>
             </div>
         </div>
     )
