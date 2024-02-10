@@ -1,3 +1,7 @@
+.titleWrapper {
+  padding-top: 20%;
+}
+
 .subtractWrapper {
   position: relative;
   display: flex;
@@ -7,21 +11,43 @@
 .absolute {
   position: absolute;
   top: 0;
-  left: 2em;
+  left: 5rem;
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
 
-.image {
-  width: 350px;
+.image1 {
+  width: 330px;
   height: 65px;
+}
+
+.image3 {
+  width: 510px;
+  height: 65px;
+}
+
+.image5 {
+  height: 65px;
+  width: 510px;
 }
 
 .number {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 55px;
-  line-height: 1em;
+  font-size: 45px;
+  margin-left: 1%;
+}
+
+.subtractTitle {
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-left: 5rem;
+  padding-top: 3rem;
 }
