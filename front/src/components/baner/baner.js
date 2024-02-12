@@ -1,5 +1,5 @@
 import styles from './baner.module.scss';
-import baner from '../../../public/baner.png'
+import baner from '../../../public/BanerMainsan.png'
 import Image from 'next/image';
 
 import React from 'react'
@@ -11,9 +11,6 @@ export default function Baner() {
             <Image
                 src={baner}
                 alt="baner"
-                layout="responsive"
-                width={1920}
-                height={1080}
                 style={{ width: '100%', height: '100%' }}
             />
 

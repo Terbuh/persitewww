@@ -4,6 +4,7 @@ import WhatWeDo from '@/components/whatWeDo/whatWeDo'
 import styles from './homestyles.module.scss'
 import Baner from '@/components/baner/baner'
 import Process from '@/components/process/process'
+import Doggy from '@/components/doggy/doggy'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <WhatWeDo />
       <Keys />
       <Process />
+      <Doggy />
     </div>
 
   )

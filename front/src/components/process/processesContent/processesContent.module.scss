@@ -2,6 +2,10 @@
   padding-top: 20%;
 }
 
+.animated-image {
+  transition: width 1s ease-in-out; // Adjust transitions as desired
+}
+
 .subtractWrapper {
   position: relative;
   display: flex;
