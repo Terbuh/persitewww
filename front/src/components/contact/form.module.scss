@@ -1,7 +1,7 @@
 .wrapper {
-  height: 600px;
-  width: 70%;
-  margin-left: 15vw;
+  height: 400px;
+  width: 60%;
+  margin-left: 20vw;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,37 @@
   gap: 20px;
 }
 
+.absolute {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.absolute2 {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image {
+  height: auto;
+  width: 50%;
+}
+
+.image2 {
+  height: auto;
+  width: 50%;
+  transform: rotateY(180deg);
+}
+
+.wrapperContent {
+  margin-top: 5%;
+}
+
 .firstColumns {
-  padding-top: 20px;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,14 +86,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .descInput {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .descInput::placeholder {
@@ -120,5 +148,23 @@
     height: auto;
     font-size: 12px;
     padding: 5px;
+  }
+
+  .absolute {
+    top: 20%;
+  }
+
+  .absolute2 {
+    top: 20%;
+  }
+
+  .image {
+    height: auto;
+    width: 50%;
+  }
+
+  .image2 {
+    height: auto;
+    width: 50%;
   }
 }

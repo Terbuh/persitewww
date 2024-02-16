@@ -50,3 +50,9 @@
   flex-direction: column;
   align-items: flex-end;
 }
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    display: none;
+  }
+}

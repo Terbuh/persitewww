@@ -10,6 +10,7 @@
   outline: none;
   cursor: pointer;
   padding-bottom: 20px;
+  z-index: 2;
 }
 
 input.checked {
@@ -38,4 +39,11 @@ input.checked::before {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  .policy {
+    font-size: 8px;
+    width: 60%;
+  }
 }
