@@ -1,6 +1,6 @@
 .wrapper {
   background-image: url("../../../public/doggy.png");
-  background-size: cover; /* Dopasowuje obraz tła do rozmiaru kontenera */
+  background-size: cover;
   background-position: center;
   width: 100%;
   background-repeat: no-repeat;
@@ -36,6 +36,7 @@
   color: #f5e6ff;
   letter-spacing: 0.05em;
   font-size: 28px;
+  font-weight: 500;
 }
 
 .absolute {
