@@ -48,6 +48,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
 }
 
 .input {
@@ -80,6 +81,7 @@
   color: #481c8ea6;
   padding: 10px;
   margin: 0;
+  z-index: 2;
 }
 
 .mailInput {
@@ -87,6 +89,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  z-index: 2;
 }
 
 .descInput {
@@ -94,6 +97,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  z-index: 2;
 }
 
 .descInput::placeholder {
