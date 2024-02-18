@@ -1,0 +1,49 @@
+.checkboxWrapper input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 0.5em;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 20px;
+  z-index: 2;
+}
+
+input.checked {
+  background-color: #2fe7e4;
+  position: relative;
+}
+
+input.checked::before {
+  content: "X";
+  font-size: 1em;
+  color: #fff;
+  position: absolute;
+  left: 25%;
+  top: 2px;
+}
+
+.policy {
+  font-weight: 500;
+  color: #f5e6ff;
+  font-size: 12px;
+  width: 80%;
+}
+
+.labelWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  .policy {
+    font-size: 8px;
+    width: 60%;
+  }
+}

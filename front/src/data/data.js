@@ -1,31 +1,31 @@
 
 export const CORE_CONCEPTS = [
   {
-    image: '/Web.png',  // Zmieniono na ścieżkę
+    image: '/Web.png',
     title: 'Tworzenie stron internetowych',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.',
+      'Oferujemy profesjonalne usługi tworzenia stron internetowych, wykorzystując nowoczesne technologie, aby dostarczyć klientom funkcjonalne witryny.',
 
   },
   {
-    image: '/Monitor.png',  // Zmieniono na ścieżkę
+    image: '/Monitor.png',
     title: 'UI/UX design',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.',
+      'Specjalizujemy się w projektowaniu interfejsów użytkownika (UI) oraz doświadczenia użytkownika (UX), dbając o estetykę i intuicyjność.',
 
   },
   {
-    image: '/Chat.png',  // Zmieniono na ścieżkę
+    image: '/Chat.png',
     title: 'Konsultacje i doradztwo',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.',
+      'Zapewniamy wysokiej jakości konsultacje i doradztwo, gdzie służymy fachową pomocą w wyborze optymalnych rozwiązań dostosowanych do indywidualnych Twoich potrzeb.',
 
   },
   {
-    image: '/Graph.png',  // Zmieniono na ścieżkę
+    image: '/Graph.png',
     title: 'Graphic design',
     description:
-      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.',
+      ' Oferujemy profesjonalne usługi graphic designu, dostarczając kreatywne rozwiązania graficzne dla stron internetowych, co pomaga w budowaniu silnego wizerunku marki i przyciąganiu uwagi klientów.',
 
   },
 ];
