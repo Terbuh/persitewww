@@ -1,4 +1,3 @@
-// components/key_services/cards/Card.js
 import React from 'react';
 import Image from 'next/image';
 import styles from './card.module.scss'

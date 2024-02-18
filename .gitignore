@@ -1,2 +1,6 @@
 # Ignoruj katalogi node_modules we wszystkich podkatalogach
 **/node_modules/
+
+
+# Zignoruj folder .next we wszystkich podkatalogach
+/front/.next/
