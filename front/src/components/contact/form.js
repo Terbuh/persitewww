@@ -4,6 +4,7 @@ import styles from './form.module.scss'
 import Checkbox from './checkbox'
 import Image from 'next/image'
 import P from '../../../public/greyP.png'
+import { EmailInput } from './inputType'
 
 
 export default function Form() {
@@ -12,25 +13,20 @@ export default function Form() {
             <div><Title /></div>
             <div className={styles.wrapperContent}>
                 <div className={styles.wrapper}>
+
                     <div className={styles.firstColumns}>
-                        <input
-                            type='text'
-                            className={styles.input}
-                            placeholder='Powiedz nam jak się nazywasz' />
-                        <input
-                            type='number'
-                            className={styles.input}
-                            placeholder='Twój numer kontaktowy' />
+                        <div className={styles.input}>
+                            <EmailInput name='name' label='Powiedz nam jak się nazywasz' />
+                        </div>
+                        <div className={styles.input}>
+                            <EmailInput name='phone' label='Twój numer kontaktowy' />
+                        </div>
                     </div>
                     <div className={styles.mailInput}>
-                        <input
-                            type='text'
-                            className={styles.inputMail}
-                            placeholder='Mail kontaktowy (jeśli chciałbys mieć swoją domenę, to też to ogarniamy :) )' />
+                        <EmailInput name='email' label='Mail kontaktowy (jeśli chciałbys mieć swoją domenę, to też to ogarniamy :) )' />
                     </div>
                     <div className={styles.descInput}>
                         <textarea
-
                             className={styles.inputDesc}
                             placeholder='Opisz nam swoją wizję' />
                     </div>

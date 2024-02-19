@@ -1,7 +1,6 @@
 import styles from './baner.module.scss';
 import baner from '../../../public/BanerMainsan.png'
 import Image from 'next/image';
-
 import React from 'react'
 
 export default function Baner() {

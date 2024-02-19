@@ -52,15 +52,7 @@
 }
 
 .input {
-  width: 30%;
-  border: none;
-  outline: none;
-  background-color: #f5e6ff;
-  font-size: inherit;
-  font-family: inherit;
-  color: #481c8ea6;
-  padding: 10px;
-  margin: 0;
+  width: 40%;
 }
 
 .input::placeholder {
@@ -71,24 +63,24 @@
   padding-left: 5px;
 }
 
-.inputMail {
-  width: 80%;
-  border: none;
-  outline: none;
-  background-color: #f5e6ff;
-  font-size: inherit;
-  font-family: inherit;
-  color: #481c8ea6;
-  padding: 10px;
-  margin: 0;
-  z-index: 2;
-}
+// .inputMail {
+//   width: 70%;
+//   border: none;
+//   outline: none;
+//   background-color: #f5e6ff;
+//   font-size: inherit;
+//   font-family: inherit;
+//   color: #481c8ea6;
+//   padding: 10px;
+//   margin: 0;
+//   z-index: 2;
+// }
 
 .mailInput {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 72%;
   z-index: 2;
 }
 
