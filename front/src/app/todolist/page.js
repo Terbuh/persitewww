@@ -1,7 +1,10 @@
+import Navbar from '@/app/todolist/components/navbar/navbar'
 import React from 'react'
 
-export default function Page() {
+export default function ToDoList() {
     return (
-        <div>Tutaj już rób co trzeba. Bedzięmy robić w sensie hihi</div>
-    )
+        <div>
+            <Navbar />
+        </div>
+    );
 }
