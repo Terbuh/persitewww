@@ -3,10 +3,10 @@ import NavBar from '@/components/navbar/navbar'
 import WhatWeDo from '@/components/whatWeDo/whatWeDo'
 import styles from './homestyles.module.scss'
 import Baner from '@/components/baner/baner'
-import Process from '@/components/process/process'
 import Doggy from '@/components/doggy/doggy'
 import Form from '@/components/contact/form'
 import Footer from '@/components/footer/footer'
+import NewProcess from '@/components/process/newProcess'
 
 
 
@@ -20,10 +20,10 @@ export default function Home() {
         <WhatWeDo />
         <Keys />
       </div>
-      <div id="process">
-        <Process />
-      </div>
       <Doggy />
+      <div id="process">
+        <NewProcess />
+      </div>
       <div id='contact'>
         <Form />
       </div>

@@ -42,6 +42,10 @@ input.checked::before {
   flex-direction: row;
 }
 
+.checkedPolicy {
+  color: #2fe7e4;
+}
+
 @media only screen and (max-width: 800px) {
   .policy {
     font-size: 8px;

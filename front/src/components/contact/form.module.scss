@@ -8,12 +8,15 @@
   justify-content: center;
   align-items: center;
   background-image: url("../../../public/contactImage.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   gap: 20px;
 }
-
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+}
 .absolute {
   position: absolute;
   left: 0;
@@ -62,19 +65,6 @@
 .inputMail::placeholder {
   padding-left: 5px;
 }
-
-// .inputMail {
-//   width: 70%;
-//   border: none;
-//   outline: none;
-//   background-color: #f5e6ff;
-//   font-size: inherit;
-//   font-family: inherit;
-//   color: #481c8ea6;
-//   padding: 10px;
-//   margin: 0;
-//   z-index: 2;
-// }
 
 .mailInput {
   display: flex;
@@ -167,22 +157,56 @@
   }
 }
 
+.greyButton {
+  background-color: #ffffff;
+  color: grey;
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: not-allowed;
+  z-index: 20;
+}
+
+.whiteButton {
+  background-color: #ffffff;
+  color: #481c8e;
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.sentText {
+  color: #481c8e;
+  background-color: #2fe7e4;
+  z-index: 20;
+}
+
 @media only screen and (max-width: 450px) {
   .wrapper {
-    height: 270px;
+    height: 320px;
     margin-top: 4%;
     width: 100%;
     margin-left: 0vw;
-    gap: 10px;
+    gap: 8px;
     background-size: cover;
   }
   .firstColumns {
-    padding-top: 10px;
+    padding-top: 2px;
   }
 
   .input {
     font-size: 12px;
-    padding: 5px;
+    padding: 3px;
   }
 
   .mailInput {
@@ -194,5 +218,13 @@
   .inputDesc {
     margin-top: 5%;
     width: 100%;
+  }
+
+  .greyButton {
+    width: 35%;
+  }
+
+  .whiteButton {
+    width: 35%;
   }
 }

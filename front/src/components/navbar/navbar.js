@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className={styles.nav}>
                     <div className={styles.navButtons}>
                         <div>
-                            <Link href="#offer">Oferta</Link>
+                            <Link href="#offer">Co robimy?</Link>
                         </div>
                         <div>
                             <Link href="#process">Proces projektowy</Link>
