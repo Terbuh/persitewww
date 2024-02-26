@@ -63,3 +63,26 @@
     width: 60px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    height: 220px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 10px;
+  }
+
+  .textWrapper {
+    margin-left: 1rem;
+    width: 50%;
+    padding-top: 0%;
+  }
+
+  .image {
+    height: 80px;
+    width: 60px;
+  }
+}

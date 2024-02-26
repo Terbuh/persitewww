@@ -1,7 +1,6 @@
 .checkboxWrapper input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
-  /* creating a custom design */
   width: 1.6em;
   height: 1.6em;
   margin-right: 0.5em;
@@ -14,17 +13,19 @@
 }
 
 input.checked {
-  background-color: #2fe7e4;
   position: relative;
 }
 
 input.checked::before {
-  content: "X";
-  font-size: 1em;
-  color: #fff;
+  content: "✔";
+  font-size: 2em;
+  color: #2fe7e4;
   position: absolute;
-  left: 25%;
-  top: 2px;
+  left: 0%;
+  bottom: -5px;
+}
+.checkboxWrapper input[type="checkbox"]:checked {
+  border-color: #2fe7e4;
 }
 
 .policy {
@@ -45,5 +46,12 @@ input.checked::before {
   .policy {
     font-size: 8px;
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .policy {
+    font-size: 7px;
+    width: 80%;
   }
 }

@@ -15,7 +15,7 @@
   height: 100px;
   width: 100px;
   display: flex;
-  background-color: #d9d9d9;
+  background-color: #481c8e;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -47,5 +47,32 @@
 @media only screen and (max-width: 800px) {
   .card {
     margin-top: 4em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    margin-top: 2em;
+    height: 180px;
+    width: 200px;
+  }
+
+  .image {
+    width: 50%;
+  }
+  .imageWrapper {
+    height: 60px;
+    width: 60px;
+    top: -10%;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cardDescription {
+    font-size: 12px;
+    line-height: 25px;
   }
 }

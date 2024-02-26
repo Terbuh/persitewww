@@ -53,3 +53,22 @@
     height: 150px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .title {
+    padding-top: 5%;
+    font-size: 24px;
+  }
+  .desc {
+    font-size: 12px;
+    top: 15%;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+
+  .image {
+    height: 100px;
+  }
+}

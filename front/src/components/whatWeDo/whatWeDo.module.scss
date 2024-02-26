@@ -43,3 +43,18 @@
     line-height: 28.76px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .whatWeDo {
+    font-size: 24px;
+  }
+
+  .description {
+    width: 50%;
+    font-size: 10px;
+  }
+
+  .descriptionPersite {
+    font-size: 14px;
+  }
+}

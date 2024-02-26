@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './title.module.scss'
 import Image from 'next/image'
-import Big from '../../../public/BigSubtract.png'
+import Big from '../../../public/BigOne.png'
 
 export default function Title() {
     return (

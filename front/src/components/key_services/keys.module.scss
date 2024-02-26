@@ -1,7 +1,7 @@
 .wrapper {
   height: 100%;
   width: 100%;
-  background-color: #481c8e4d;
+  background-color: #481c8e66;
 }
 
 .description {
@@ -47,6 +47,28 @@
     width: 40%;
     font-size: 14px;
     line-height: 28.76px;
+  }
+  .cardWrapper {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .textWrapper {
+    margin-bottom: 3em;
+    padding-top: 50px;
+  }
+
+  .description {
+    width: 40%;
+    font-size: 12px;
   }
   .cardWrapper {
     width: 100%;

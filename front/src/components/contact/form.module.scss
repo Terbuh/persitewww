@@ -129,11 +129,13 @@
   }
   .firstColumns {
     padding-top: 10px;
+    width: 100%;
   }
 
   .input {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 2px;
+    width: 100%;
   }
 
   .inputMail {
@@ -162,5 +164,35 @@
   .image2 {
     height: auto;
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .wrapper {
+    height: 270px;
+    margin-top: 4%;
+    width: 100%;
+    margin-left: 0vw;
+    gap: 10px;
+    background-size: cover;
+  }
+  .firstColumns {
+    padding-top: 10px;
+  }
+
+  .input {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .mailInput {
+    margin-top: 5%;
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .inputDesc {
+    margin-top: 5%;
+    width: 100%;
   }
 }

@@ -4,37 +4,37 @@ import styles from './navbar.module.scss';
 import Image from 'next/image';
 import BlackPersite from "../../../public/blackPersite.png";
 import Black from "../../../public/A.png";
+import Link from 'next/link'
+
 
 
 
 const Navbar = () => {
     const [menuActive, setMenuActive] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [activeLink, setActiveLink] = useState('')
 
     useEffect(() => {
-        // Sprawdź szerokość ekranu przy załadowaniu komponentu
         checkScreenWidth();
 
-        // Dodaj event listener do obsługi zmiany rozmiaru okna
         window.addEventListener('resize', checkScreenWidth);
 
-        // Odczyść event listener przy odmontowywaniu komponentu
         return () => {
             window.removeEventListener('resize', checkScreenWidth);
         };
     }, []);
 
     const checkScreenWidth = () => {
-        // Ustaw flagę isMobile w zależności od szerokości ekranu
         setIsMobile(window.innerWidth < 800);
     };
 
     const toggleMenu = () => {
         setMenuActive(!menuActive);
+
     };
 
     return (
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${styles.sticky}`}>
             <div className={styles.logoContainer}>
                 <div className={styles.logo}>
                     <Image
@@ -54,10 +54,15 @@ const Navbar = () => {
             <div className={styles.navContainer}>
                 <div className={styles.nav}>
                     <div className={styles.navButtons}>
-                        <div>O nas</div>
-                        <div>Korzyści</div>
-                        <div>Proces projektowy</div>
-                        <div>Kontakt</div>
+                        <div>
+                            <Link href="#offer">Oferta</Link>
+                        </div>
+                        <div>
+                            <Link href="#process">Proces projektowy</Link>
+                        </div>
+                        <div>
+                            <Link href="#contact">Kontakt</Link>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.container}>
@@ -73,9 +78,9 @@ const Navbar = () => {
                                 <div className={styles.closeButton} onClick={toggleMenu}>
                                     X
                                 </div>
-                                <a href="#">Home</a>
-                                <a href="#">About</a>
-                                <a href="#">Projects</a>
+                                <a href="#offer">Oferta</a>
+                                <a href="#process">Proces projektowy</a>
+                                <a href="#contact">Kontakt</a>
                             </div>
 
 
@@ -84,13 +89,17 @@ const Navbar = () => {
                 </div>
                 <div className={styles.contactContainer}>
                     <div className={styles.contactButton}>
-                        <div className={styles.button}>Napisz do Nas</div>
+                        <Link href="#contact">
+                            <div className={styles.button}>
+                                Napisz do Nas
+                            </div>
+                        </Link>
                     </div>
-                    <div className={styles.languageIcon}>
+                    {/* <div className={styles.languageIcon}>
                         <div className={styles.circle}>
                         </div>
                         <div className={styles.language}>PL</div>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
