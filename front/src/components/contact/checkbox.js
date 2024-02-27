@@ -1,4 +1,3 @@
-// Checkbox.jsx
 "use client"
 import { useState } from "react";
 import styles from './check.module.scss';

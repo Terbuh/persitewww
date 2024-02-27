@@ -10,6 +10,7 @@
   font-size: 24px;
   line-height: 38.76px;
   width: 873px;
+  width: 40%;
 }
 
 .title {
@@ -32,6 +33,10 @@
   justify-content: center;
   gap: 36px;
   padding-bottom: 10%;
+}
+.dots {
+  display: inline;
+  color: #2fe7e4;
 }
 
 @media only screen and (max-width: 800px) {

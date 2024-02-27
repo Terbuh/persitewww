@@ -7,7 +7,10 @@ const Keys = () => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.textWrapper}>
-                <div className={styles.title}>Kluczowe usługi</div>
+                <div className={styles.title}>
+                    Kluczowe usługi
+                    <div className={styles.dots}>...</div>
+                </div>
                 <div className={styles.description}>Oferujemy kompleksowe usługi z zakresu projetowania i developingu stron internetowych</div>
             </div>
             <div className={styles.cardWrapper}>
