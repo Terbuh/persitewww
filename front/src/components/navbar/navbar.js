@@ -58,6 +58,9 @@ const Navbar = () => {
                             <Link href="#offer">Co robimy?</Link>
                         </div>
                         <div>
+                            <Link href="#profits">Korzyści</Link>
+                        </div>
+                        <div>
                             <Link href="#process">Proces projektowy</Link>
                         </div>
                         <div>

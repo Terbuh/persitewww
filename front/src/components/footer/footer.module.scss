@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  background-color: #481c8e;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  padding: 4%;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.ulRight {
+  list-style-type: none;
+}
+
+.ul li {
+  padding-top: 10%;
+}
+
+.ulRight li {
+  padding-top: 10%;
+}
+.ulBold {
+  font-weight: 700;
+}
+
+.footerText {
+  color: #ffffff;
+  padding-top: 2%;
+}
