@@ -1,3 +1,5 @@
 {
-  "/todolist/page": "app/todolist/page.js"
+  "/page": "app/page.js",
+  "/todolist/page": "app/todolist/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

@@ -35,18 +35,6 @@ const MainBackground = () => {
             <div className={styles.verticalLine}>
                 <VerticalLine />
             </div>
-            {/* <div className={styles.taskColumn}>
-                <TaskColumn />
-            </div>
-            <div className={styles.taskColumn}>
-                <TaskColumn />
-            </div>
-            <div className={styles.taskColumn}>
-                <TaskColumn />
-            </div>
-            <div className={styles.taskColumn}>
-                <TaskColumn />
-            </div> */}
         </div>
     );
 }

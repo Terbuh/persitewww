@@ -5,8 +5,10 @@
     background: linear-gradient(180deg, rgba(47,231,228,1) 17%, rgba(72,28,142,1) 100%);
     height: 100vh;
     width: 100%;
+    color: black;
 }
 
 .taskColumn {
     flex: 1;
+    max-width: 20%;
 }
