@@ -7,6 +7,7 @@ import Doggy from '@/components/doggy/doggy'
 import Form from '@/components/contact/form'
 import Footer from '@/components/footer/footer'
 import NewProcess from '@/components/process/newProcess'
+import Profits from '@/components/profit/profits'
 
 
 
@@ -21,6 +22,10 @@ export default function Home() {
         <Keys />
       </div>
       <Doggy />
+      <div id="profits">
+        <Profits />
+      </div>
+
       <div id="process">
         <NewProcess />
       </div>
