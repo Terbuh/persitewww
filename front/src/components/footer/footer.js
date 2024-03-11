@@ -9,7 +9,8 @@ export default function Footer() {
             <div className={styles.logo}>
                 <Image
                     src={P}
-                    alt='logo' />
+                    alt='logo'
+                    className={styles.image} />
             </div>
 
             <div className={styles.contentWrapper}>
@@ -19,10 +20,10 @@ export default function Footer() {
                             <li className={styles.ulBold}>Persite Sp. Z. O. O.</li>
                             <li>Ul. Bla bla 12/39b</li>
                             <li>NIP: 0123456789</li>
-                            <li>Kontakt:
-                                <li>Email: <a href="mailto:kontakt@persite.it">kontakt@persite.it</a></li>
-                                <li>Telefon: 345-567-789</li>
-                            </li>
+                            <li>Kontakt:   </li>
+                            <li>Email: <a href="mailto:kontakt@persite.it">kontakt@persite.it</a></li>
+                            <li>Telefon: 345-567-789</li>
+
                         </ul>
 
                     </div>

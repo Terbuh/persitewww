@@ -1,4 +1,3 @@
-/* styles/Home.module.css */
 .container {
   min-height: 100vh;
   display: flex;
@@ -75,7 +74,7 @@
 .absoluteLong {
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 20%;
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -191,4 +190,68 @@
 
 .descriptionWrapper {
   width: 30%;
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 20px;
+    padding-left: 10%;
+  }
+
+  .descriptionWrapper {
+    font-size: 12px;
+    width: 60%;
+  }
+  .subtractTitle,
+  .subtractTitleRight {
+    font-size: 12px;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .absolute,
+  .absoluteRight,
+  .absoluteLong {
+    font-size: 14px;
+  }
+
+  .absolute {
+    top: 15%;
+    left: -15%;
+  }
+
+  .absoluteRight {
+    top: 10%;
+    left: 30%;
+  }
+
+  .absoluteLong {
+    left: -20%;
+    top: 3%;
+  }
+  .imageLeft,
+  .imageRight {
+    height: 60px;
+    width: 150px;
+  }
+
+  .number {
+    font-size: 30px;
+    right: -30%;
+    top: 0;
+    height: 100%;
+    width: 50%;
+  }
+  .numberRight {
+    font-size: 30px;
+    margin-left: 1%;
+    left: -30%;
+    top: 0;
+    height: 100%;
+    width: 50%;
+  }
+
+  .numberNumber {
+    font-size: 30px;
+  }
 }

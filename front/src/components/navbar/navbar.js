@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className={styles.nav}>
                     <div className={styles.navButtons}>
                         <div>
-                            <Link href="#offer">Co robimy?</Link>
+                            <Link href="#offer">Oferta</Link>
                         </div>
                         <div>
                             <Link href="#profits">Korzyści</Link>
@@ -65,6 +65,9 @@ const Navbar = () => {
                         </div>
                         <div>
                             <Link href="#contact">Kontakt</Link>
+                        </div>
+                        <div>
+                            <Link href="#faq">FAQ</Link>
                         </div>
                     </div>
                 </div>
