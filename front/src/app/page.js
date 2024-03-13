@@ -9,12 +9,10 @@ import Footer from '@/components/footer/footer'
 import NewProcess from '@/components/process/newProcess'
 import Profits from '@/components/profit/profits'
 import Doggy2 from '@/components/doggy2/doggy2'
-
-
+import Faq from '@/components/faq/faq'
 
 export default function Home() {
   return (
-
     <div className={styles.home}>
       <NavBar />
       <Baner />
@@ -26,7 +24,6 @@ export default function Home() {
       <div id="profits">
         <Profits />
       </div>
-
       <div id="process">
         <NewProcess />
       </div>
@@ -34,8 +31,10 @@ export default function Home() {
       <div id='contact'>
         <Form />
       </div>
+      <div id='faq'>
+        <Faq />
+      </div>
       <Footer />
     </div>
-
   )
 }

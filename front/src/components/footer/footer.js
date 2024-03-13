@@ -20,7 +20,7 @@ export default function Footer() {
                             <li className={styles.ulBold}>Persite Sp. Z. O. O.</li>
                             <li>Ul. Bla bla 12/39b</li>
                             <li>NIP: 0123456789</li>
-                            <li>Kontakt:   </li>
+                            <li>Kontakt:</li>
                             <li>Email: <a href="mailto:kontakt@persite.it">kontakt@persite.it</a></li>
                             <li>Telefon: 345-567-789</li>
 
