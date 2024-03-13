@@ -24,7 +24,8 @@ const NewProcess = () => {
                     </div>
                 </div>
                 <div className={styles.descriptionWrapper}>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    Proces projektowy obejmuje pięć kluczowych kroków.
+                    Każdy etap jest starannie zaplanowany, zapewniając klientowi indywidualne podejście i satysfakcję z efektów końcowych.
                 </div>
             </div>
             <div className={styles.gridContainer}>
@@ -49,9 +50,9 @@ const NewProcess = () => {
                         </div>
                         <div className={styles.imageNumberWrapper}>
                             <div className={styles.subtractTitle}>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                W pierwszym kroku procesu projektowego przeprowadzamy szczegółowe konsultacje z Tobą.
+                                Podczas tych spotkań omawiane są cele strony, preferencje designu, funkcje oraz wszelkie inne wymagania.
+                                Konsultacje są kluczowe dla zrozumienia Twoich oczekiwań i dostosowania projektu do Ciebie.
                             </div>
                         </div>
 
@@ -80,9 +81,8 @@ const NewProcess = () => {
                         </div>
                         <div className={styles.imageNumberWrapperRight}>
                             <div className={styles.subtractTitleRight}>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                Na podstawie zebranych informacji z konsultacji, tworzymy spersonalizowaną ofertę.
+                                W dokładny sposób przedstawiamy zakres pracy, proponowane funkcje, harmonogram projektu oraz szacunkowe koszty.
                             </div>
                         </div>
                     </div>
@@ -108,9 +108,8 @@ const NewProcess = () => {
                         </div>
                         <div className={styles.imageNumberWrapper}>
                             <div className={styles.subtractTitle}>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                Po zaakceptowaniu oferty, przechodzimy do fazy projektowania strony internetowej.
+                                Tworzymy wireframe'y, czyli szkice układu strony, a następnie przystępujemy do projektowania graficznego.
                             </div>
                         </div>
                     </div>
@@ -138,9 +137,9 @@ const NewProcess = () => {
                         </div>
                         <div className={styles.imageNumberWrapperRight}>
                             <div className={styles.subtractTitleRight}>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                Po zatwierdzeniu projektu przez Ciebie, przystępujemy do etapu wdrożenia.
+                                Programiści implementują wszystkie funkcje strony, integrują niezbędne narzędzia oraz testują poprawność działania.
+                                W tym czasie masz możliwość monitorowania postępu prac i zgłaszania ewentualnych poprawek.
                             </div>
                         </div>
                     </div>
@@ -166,9 +165,8 @@ const NewProcess = () => {
                         </div>
                         <div className={styles.imageNumberWrapper}>
                             <div className={styles.subtractTitle}>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                Po pomyślnym zakończeniu procesu wdrożenia, następuje etap przekazania projektu.
+                                W tym momencie udzielamy niezbędnej instrukcji dotyczącej zarządzania treściami na stronie, obsługi panelu administracyjnego oraz udzielamy wsparcia technicznego.
                             </div>
                         </div>
                     </div>
