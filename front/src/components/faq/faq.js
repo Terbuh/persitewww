@@ -10,7 +10,7 @@ export default function Faq() {
 
     const toggleAnswerVisibility = (index) => {
         setAnswerVisible((prev) =>
-            prev.map((value, i) => (i === index ? !value : false))
+            prev.map((value, i) => (i === index ? !value : value))
         );
     };
 
