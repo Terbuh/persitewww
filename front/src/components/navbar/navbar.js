@@ -85,8 +85,10 @@ const Navbar = () => {
                                     X
                                 </div>
                                 <a href="#offer">Oferta</a>
+                                <a href="#profits">Korzyści</a>
                                 <a href="#process">Proces projektowy</a>
                                 <a href="#contact">Kontakt</a>
+                                <a href="#faq">FAQ</a>
                             </div>
 
 

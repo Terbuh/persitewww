@@ -18,11 +18,10 @@ export default function Footer() {
                     <div className={styles.list}>
                         <ul className={styles.ul}>
                             <li className={styles.ulBold}>Persite Sp. Z. O. O.</li>
-                            <li>Ul. Bla bla 12/39b</li>
-                            <li>NIP: 0123456789</li>
-                            <li>Kontakt:</li>
-                            <li>Email: <a href="mailto:kontakt@persite.it">kontakt@persite.it</a></li>
-                            <li>Telefon: 345-567-789</li>
+                            {/* <li>Ul. Bla bla 12/39b</li> */}
+                            {/* <li>NIP: 0123456789</li> */}
+                            <li>Email: <a href="mailto:persite.it@gmail.com">persite.it@gmail.com</a></li>
+                            <li>Telefon: 784-447-585 / 691-926-841</li>
 
                         </ul>
 
@@ -35,7 +34,9 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className={styles.footerText}>Copyrights claim ...lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</div>
+                <div className={styles.footerText}>Copyright © 2024 Persite. Wszystkie prawa zastrzeżone.
+                    Zabrania się kopiowania, reprodukcji lub rozpowszechniania treści tej strony bez zgody Persite.
+                    Wszelkie znaki towarowe, nazwy handlowe oraz logo są własnością Persite.</div>
             </div>
         </div>
 

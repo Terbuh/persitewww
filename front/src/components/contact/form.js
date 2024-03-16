@@ -38,7 +38,7 @@ export default function Form() {
                         </div>
                     </div>
                     <div className={styles.mailInput}>
-                        <EmailInput name='email' label='Mail kontaktowy (jeśli chciałbys mieć swoją domenę, to też to ogarniamy :) )' />
+                        <EmailInput name='email' label='Twój adres email' />
                     </div>
                     <div className={styles.descInput}>
                         <textarea

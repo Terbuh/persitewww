@@ -109,17 +109,12 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .inputGroup {
-    padding-top: 10px;
-    padding-bottom: 12px;
-  }
-
   .label {
     font-size: 10px;
 
     .inputField:focus ~ &,
     .inputField:valid ~ & {
-      transform: translateY(-230%);
+      transform: translateY(-200%);
       font-size: 8px;
     }
   }
