@@ -16,15 +16,14 @@
 .title {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 36px;
 }
 
 .textWrapper {
   margin-bottom: 10em;
   display: flex;
   justify-content: space-evenly;
-  padding-top: 104px;
+  padding-top: 4%;
 }
 
 .cardWrapper {
@@ -32,7 +31,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 36px;
-  padding-bottom: 10%;
+  padding-bottom: 4%;
 }
 .dots {
   display: inline;

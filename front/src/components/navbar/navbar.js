@@ -7,8 +7,6 @@ import Black from "../../../public/A.png";
 import Link from 'next/link'
 
 
-
-
 const Navbar = () => {
     const [menuActive, setMenuActive] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
@@ -30,7 +28,6 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setMenuActive(!menuActive);
-
     };
 
     return (
@@ -79,7 +76,6 @@ const Navbar = () => {
                                 <div className={`${styles.menuBar} ${styles.bar2}`}></div>
                                 <div className={`${styles.menuBar} ${styles.bar3}`}></div>
                             </div>
-
                             <div className={`${styles.menu} ${menuActive ? styles.active : ''}`}>
                                 <div className={styles.closeButton} onClick={toggleMenu}>
                                     X
@@ -90,8 +86,6 @@ const Navbar = () => {
                                 <a href="#contact">Kontakt</a>
                                 <a href="#faq">FAQ</a>
                             </div>
-
-
                         </>
                     )}
                 </div>
@@ -103,16 +97,8 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    {/* <div className={styles.languageIcon}>
-                        <div className={styles.circle}>
-                        </div>
-                        <div className={styles.language}>PL</div>
-                    </div> */}
                 </div>
-
             </div>
-
-
         </nav>
     );
 };

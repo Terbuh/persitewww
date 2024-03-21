@@ -1,11 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25vh;
+  position: relative;
+}
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 300px;
+  height: 120px;
   width: 250px;
   background-color: #ffffff;
-  position: relative;
 }
 
 .image {
@@ -20,7 +26,8 @@
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  top: -22%;
+  top: -30%;
+  transition: background-color 0.5s;
 }
 
 .cardTitle {
@@ -36,12 +43,16 @@
 .cardDescription {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 25px;
   letter-spacing: 0.05em;
   text-align: center;
-  margin-top: 1%;
-  padding: 10px;
+  width: 250px;
+  background-color: #ffffff;
+}
+
+.card:hover .imageWrapper {
+  background-color: #2fe7e4; /* Nowy kolor tła po najechaniu na card */
 }
 
 @media only screen and (max-width: 800px) {

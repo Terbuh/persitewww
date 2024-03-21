@@ -9,9 +9,8 @@ const Keys = () => {
             <div className={styles.textWrapper}>
                 <div className={styles.title}>
                     Kluczowe usługi
-                    <div className={styles.dots}>...</div>
+                    {/* <div className={styles.dots}>...</div> */}
                 </div>
-                <div className={styles.description}>Oferujemy kompleksowe usługi z zakresu projetowania i developingu stron internetowych</div>
             </div>
             <div className={styles.cardWrapper}>
                 {CORE_CONCEPTS.map((data, index) => (
