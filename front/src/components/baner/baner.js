@@ -1,17 +1,27 @@
 import styles from './baner.module.scss';
-import baner from '../../../public/BanerMainsan.png'
+import background from '../../../public/background.png'
 import Image from 'next/image';
+import Logo from '../../../public/whiteLogo.png'
 import React from 'react'
 
 export default function Baner() {
     return (
         <div className={styles.baner}>
             <div className={styles.wrapper}>
-                <Image
-                    src={baner}
-                    alt="baner"
-                    style={{ width: '100%', height: '100%' }}
-                />
+                <div className={styles.container}>
+                    <section className={styles.animation}>
+                        <div className={styles.first}>
+                            <div>
+                                <Image
+                                    src={Logo}
+                                /></div>
+
+                        </div>
+                        <div className={styles.second}><div>Tworzymy dla Ciebie</div></div>
+                        <div className={styles.third}><div>Najwyższa jakość <div className={styles.per}>per</div> twoja strona</div></div>
+                    </section>
+                    <div className={styles.question}>Co możemy dla Ciebie stworzyć?</div>
+                </div>
             </div>
         </div>
     )
