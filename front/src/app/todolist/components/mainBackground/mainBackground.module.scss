@@ -1,0 +1,13 @@
+.mainBackground {
+    display: flex;
+    flex-direction: row;
+    background: rgb(47,231,228);
+    background: linear-gradient(180deg, rgba(47,231,228,1) 17%, rgba(72,28,142,1) 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.taskColumn {
+    flex: 1;
+    max-width: 20%;
+}

@@ -1,7 +1,19 @@
+import Navbar from '@/app/todolist/components/navbar/navbar'
 import React from 'react'
+import MainBackground from './components/mainBackground/mainBackground'
+import TaskColumn from './components/taskColumn/taskColumn'
+import KanbanBoard from './components/sampleKanban/sampleKanban'
 
-export default function Page() {
+export default function ToDoList() {
     return (
-        <div>Tutaj już rób co trzeba. Bedzięmy robić w sensie hihi</div>
+        <div>
+            <div>
+                 <Navbar />
+            </div>
+            {/* <MainBackground /> */}
+            <div>
+                <KanbanBoard />
+            </div>
+        </div>
     )
 }
