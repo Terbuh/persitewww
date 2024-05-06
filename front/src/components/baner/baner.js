@@ -18,7 +18,7 @@ export default function Baner() {
 
                         </div>
                         <div className={styles.second}><div>Tworzymy dla Ciebie</div></div>
-                        <div className={styles.third}><div>Najwyższa jakość <div className={styles.per}>per</div> twoja strona</div></div>
+                        <div className={styles.third}><div>Każda strona dopracowana do <div className={styles.per}>per</div>fekcji</div></div>
                     </section>
                     <div className={styles.question}>Co możemy dla Ciebie stworzyć?</div>
                 </div>

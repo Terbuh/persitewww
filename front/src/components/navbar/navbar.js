@@ -56,7 +56,7 @@ const Navbar = () => {
                 <div className={styles.contactContainer}>
                     <div className={styles.contactButton}>
                         <div className={styles.button}>
-                            Napisz do Nas
+                            Bezpłatna wycena
                         </div>
                     </div>
                     <div className={styles.language}>EN</div>
