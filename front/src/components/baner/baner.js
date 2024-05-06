@@ -1,5 +1,4 @@
 import styles from './baner.module.scss';
-import background from '../../../public/background.png'
 import Image from 'next/image';
 import Logo from '../../../public/whiteLogo.png'
 import React from 'react'
@@ -15,7 +14,6 @@ export default function Baner() {
                                 <Image
                                     src={Logo}
                                 /></div>
-
                         </div>
                         <div className={styles.second}><div>Tworzymy dla Ciebie</div></div>
                         <div className={styles.third}><div>Każda strona dopracowana do <div className={styles.per}>per</div>fekcji</div></div>

@@ -1,0 +1,26 @@
+.title {
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.service {
+  width: 400px;
+  height: 500px;
+  border-radius: 43px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
